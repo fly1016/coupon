@@ -1,0 +1,178 @@
+@import url("./base.less");
+@import url("./media.less");
+@import url("./font.less");
+
+.view{
+    /* 全场优惠 */
+    .all_coupon{
+        padding:0.26rem;
+        background: #f7f4f1;
+        font-family: "STHeiti";
+        .coupon_title{
+            h2{
+                font-size:0.28rem;
+                font-weight: normal;
+                line-height: 1;
+                span{
+                    float: right;   
+                    color: #888;               
+                }
+            }
+        }
+        .coupon_content{
+            margin-top:0.28rem;
+            border-radius: 10px;
+            box-shadow: 0 0 3px 2px #ccc;
+            overflow: hidden;
+            .coupon_con_top{
+                background: #55bc75;
+                padding: 0.3rem 0.26rem 0.34rem 0.26rem;
+                position: relative;
+                overflow: hidden;
+                .con_top_title1{
+                    font-size: 0.46rem;
+                    color: #fff;
+                }
+                .con_top_title2{
+                    margin-top:0.06rem;
+                    font-size: 0.24rem;
+                    color: #b8f0c9;
+                }
+                .con_top_time{
+                    margin-top:0.52rem;
+                    color: #fff;
+                    font-size: 0.22rem;
+                    .con_ready{
+                        float: right;
+                        background-color: #2a603b;
+                        color: #b8f0c9;
+                        border-radius: 5px;
+                        padding: 1px 4px;
+                    }
+                }
+                &:before{
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    background-image: url(../images/sale.png);
+                    background-size: 1.46rem 1.46rem;
+                    top: -0.2rem;
+                    right: -0.08rem;
+                    width: 1.46rem;
+                    height: 1.46rem;
+                }
+            }
+            .coupon_con_bottom{
+                padding: .18rem 0;
+                background-color: #fff;
+                position: relative;
+                a{
+                    width:50%;
+                    font-size: 0.26rem;
+                    float:left;
+                    text-align: center;
+                    color:#888;
+                    letter-spacing:1px;
+                    span{
+                        margin-right:.10rem;
+                        font-size: 0.30rem;
+                        color:#55bc75;
+                        vertical-align: middle;
+                    }
+                    &:nth-child(1){
+                        border-right:1px solid #e8e2d9;
+                    }
+                }
+                &:before{
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    top: -0.08rem;
+                    left: 0;
+                    background-image: url(../images/icon.png);
+                    background-size: .24rem .08rem;
+                    width: 100%;
+                    height: 0.08rem;
+                }
+            }
+        }
+    }
+    /* 优惠券 */
+    .coupon{
+        .coupon_content{
+            .coupon_con_top{
+                padding-top:0;
+                background: #a974bc;
+                .con_top_title1{
+                    font-size: 0px;
+                    font-family: "STXihei";
+                    .money{
+                        font-size: .40rem;
+                    }
+                    .num{
+                        font-size: .90rem;
+                    }
+                    .des{
+                        font-size: .24rem;
+                        color:#e8c4f5;
+                    }
+                }
+                .con_top_title2{
+                    color:#fff;
+                    font-size: 0.22rem;
+                    margin-top:0.2rem;
+                }
+                .con_top_time {
+                    color:#fff;
+                    margin-top: 0.04rem;
+                    .con_ready{
+                        background: #6a4279;
+                        color:#fff;
+                    }
+                }
+                
+            }
+            .coupon_con_bottom{
+                a{
+                    width:33.33%;
+                    &:nth-child(2){
+                        border-right:1px solid #e8e2d9;
+                    }
+                    span{
+                        color:#aa78bd;
+                    }
+                }
+
+            }
+        }
+    }
+
+    /* 添加优惠券 */
+    .add_coupon{
+        border:3px dashed #dedede;
+        padding:.38rem 0;
+        margin-top:0.26rem;
+        text-align: center;
+        a{
+            font-size: 1.04rem;
+            color: #aeaeae;
+        }
+        p{
+            color:#aeaeae;
+            font-size: .24rem;
+            margin-top:.14rem;
+            // letter-spacing 字体间距css样式
+            letter-spacing:2px;
+        }
+    }
+    .reminder{
+         padding:0.26rem 0.26rem 0.4rem 0.26rem;
+         background: #f7f4f1;
+         font-size: 0.22rem;
+         color:#999;
+         letter-spacing:1px;
+         p{
+            line-height: .4rem;
+         }
+    }
+}

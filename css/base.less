@@ -1,0 +1,33 @@
+/* 初始化 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: block;
+    text-decoration: none; // 继承父元素的颜色  
+    color: inherit;
+}
+
+img {
+    // 清除图片的默认3像素 
+    display: block;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+// 清除浮动
+.clearfix:after {
+    display: block;
+    content: "";
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}

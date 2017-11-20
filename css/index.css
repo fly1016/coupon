@@ -1,0 +1,315 @@
+/* 初始化 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  display: block;
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+.clearfix:after {
+  display: block;
+  content: "";
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+}
+@media only screen and (max-width: 1080px), only screen and (max-device-width: 1080px) {
+  html,
+  body {
+    font-size: 168.75px;
+  }
+}
+@media only screen and (max-width: 960px), only screen and (max-device-width: 960px) {
+  html,
+  body {
+    font-size: 150px;
+  }
+}
+@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
+  html,
+  body {
+    font-size: 125px;
+  }
+}
+@media only screen and (max-width: 720px), only screen and (max-device-width: 720px) {
+  html,
+  body {
+    font-size: 112.5px;
+  }
+}
+@media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
+  html,
+  body {
+    font-size: 100px;
+  }
+}
+@media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
+  html,
+  body {
+    font-size: 93.75px;
+  }
+}
+@media only screen and (max-width: 540px), only screen and (max-device-width: 540px) {
+  html,
+  body {
+    font-size: 84.375px;
+  }
+}
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+  html,
+  body {
+    font-size: 75px;
+  }
+}
+@media only screen and (max-width: 414px), only screen and (max-device-width: 414px) {
+  html,
+  body {
+    font-size: 64.6875px;
+  }
+}
+@media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
+  html,
+  body {
+    font-size: 62.5px;
+  }
+}
+@media only screen and (max-width: 375px), only screen and (max-device-width: 375px) {
+  html,
+  body {
+    font-size: 58.59375px;
+  }
+}
+@media only screen and (max-width: 360px), only screen and (max-device-width: 360px) {
+  html,
+  body {
+    font-size: 56.25px;
+  }
+}
+@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) {
+  html,
+  body {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 240px), only screen and (max-device-width: 240px) {
+  html,
+  body {
+    font-size: 37.5px;
+  }
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?cq7s40');
+  src: url('../fonts/icomoon.eot?cq7s40#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?cq7s40') format('truetype'), url('../fonts/icomoon.woff?cq7s40') format('woff'), url('../fonts/icomoon.svg?cq7s40#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-add:before {
+  content: "\e900";
+}
+.icon-cancle:before {
+  content: "\e901";
+}
+.icon-delete:before {
+  content: "\e902";
+}
+.icon-edit:before {
+  content: "\e903";
+}
+.icon-preview:before {
+  content: "\e904";
+}
+.icon-share:before {
+  content: "\e905";
+}
+.icon-time:before {
+  content: "\e906";
+}
+.view {
+  /* 全场优惠 */
+  /* 优惠券 */
+  /* 添加优惠券 */
+}
+.view .all_coupon {
+  padding: 0.26rem;
+  background: #f7f4f1;
+  font-family: "STHeiti";
+}
+.view .all_coupon .coupon_title h2 {
+  font-size: 0.28rem;
+  font-weight: normal;
+  line-height: 1;
+}
+.view .all_coupon .coupon_title h2 span {
+  float: right;
+  color: #888;
+}
+.view .all_coupon .coupon_content {
+  margin-top: 0.28rem;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 2px #ccc;
+  overflow: hidden;
+}
+.view .all_coupon .coupon_content .coupon_con_top {
+  background: #55bc75;
+  padding: 0.3rem 0.26rem 0.34rem 0.26rem;
+  position: relative;
+  overflow: hidden;
+}
+.view .all_coupon .coupon_content .coupon_con_top .con_top_title1 {
+  font-size: 0.46rem;
+  color: #fff;
+}
+.view .all_coupon .coupon_content .coupon_con_top .con_top_title2 {
+  margin-top: 0.06rem;
+  font-size: 0.24rem;
+  color: #b8f0c9;
+}
+.view .all_coupon .coupon_content .coupon_con_top .con_top_time {
+  margin-top: 0.52rem;
+  color: #fff;
+  font-size: 0.22rem;
+}
+.view .all_coupon .coupon_content .coupon_con_top .con_top_time .con_ready {
+  float: right;
+  background-color: #2a603b;
+  color: #b8f0c9;
+  border-radius: 5px;
+  padding: 1px 4px;
+}
+.view .all_coupon .coupon_content .coupon_con_top:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url(../images/sale.png);
+  background-size: 1.46rem 1.46rem;
+  top: -0.2rem;
+  right: -0.08rem;
+  width: 1.46rem;
+  height: 1.46rem;
+}
+.view .all_coupon .coupon_content .coupon_con_bottom {
+  padding: .18rem 0;
+  background-color: #fff;
+  position: relative;
+}
+.view .all_coupon .coupon_content .coupon_con_bottom a {
+  width: 50%;
+  font-size: 0.26rem;
+  float: left;
+  text-align: center;
+  color: #888;
+  letter-spacing: 1px;
+}
+.view .all_coupon .coupon_content .coupon_con_bottom a span {
+  margin-right: .10rem;
+  font-size: 0.30rem;
+  color: #55bc75;
+  vertical-align: middle;
+}
+.view .all_coupon .coupon_content .coupon_con_bottom a:nth-child(1) {
+  border-right: 1px solid #e8e2d9;
+}
+.view .all_coupon .coupon_content .coupon_con_bottom:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -0.08rem;
+  left: 0;
+  background-image: url(../images/icon.png);
+  background-size: .24rem .08rem;
+  width: 100%;
+  height: 0.08rem;
+}
+.view .coupon .coupon_content .coupon_con_top {
+  padding-top: 0;
+  background: #a974bc;
+}
+.view .coupon .coupon_content .coupon_con_top .con_top_title1 {
+  font-size: 0px;
+  font-family: "STXihei";
+}
+.view .coupon .coupon_content .coupon_con_top .con_top_title1 .money {
+  font-size: .40rem;
+}
+.view .coupon .coupon_content .coupon_con_top .con_top_title1 .num {
+  font-size: .90rem;
+}
+.view .coupon .coupon_content .coupon_con_top .con_top_title1 .des {
+  font-size: .24rem;
+  color: #e8c4f5;
+}
+.view .coupon .coupon_content .coupon_con_top .con_top_title2 {
+  color: #fff;
+  font-size: 0.22rem;
+  margin-top: 0.2rem;
+}
+.view .coupon .coupon_content .coupon_con_top .con_top_time {
+  color: #fff;
+  margin-top: 0.04rem;
+}
+.view .coupon .coupon_content .coupon_con_top .con_top_time .con_ready {
+  background: #6a4279;
+  color: #fff;
+}
+.view .coupon .coupon_content .coupon_con_bottom a {
+  width: 33.33%;
+}
+.view .coupon .coupon_content .coupon_con_bottom a:nth-child(2) {
+  border-right: 1px solid #e8e2d9;
+}
+.view .coupon .coupon_content .coupon_con_bottom a span {
+  color: #aa78bd;
+}
+.view .add_coupon {
+  border: 3px dashed #dedede;
+  padding: .38rem 0;
+  margin-top: 0.26rem;
+  text-align: center;
+}
+.view .add_coupon a {
+  font-size: 1.04rem;
+  color: #aeaeae;
+}
+.view .add_coupon p {
+  color: #aeaeae;
+  font-size: .24rem;
+  margin-top: .14rem;
+  letter-spacing: 2px;
+}
+.view .reminder {
+  padding: 0.26rem 0.26rem 0.4rem 0.26rem;
+  background: #f7f4f1;
+  font-size: 0.22rem;
+  color: #999;
+  letter-spacing: 1px;
+}
+.view .reminder p {
+  line-height: .4rem;
+}
+/*# sourceMappingURL=./index.css.map */
